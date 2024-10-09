@@ -7,7 +7,7 @@ Installation:
 
 biscan output_file.log
 
-where 'output_file.log' is your bidimensional output file. I provide a test file with a bidimensional scan of a water molecule in the 'examples' folder.  Any feedback is welcome!
+where 'output_file.log' is your bidimensional output file. I provide a test file with a bidimensional scan of a water molecule in the 'example' folder.  Any feedback is welcome!
 
 
 
