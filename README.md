@@ -15,5 +15,8 @@ where 'output_file.log' is your bidimensional output file. I provide a test file
 https://github.com/user-attachments/assets/3163d55e-a71e-4fef-a89f-38ef0662ea96
 
 
+Required python packages: ase, pandas, numpy, plotly, re, pathlib, dash
+
+
 
 
