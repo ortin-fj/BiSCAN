@@ -12,9 +12,18 @@ from dash import dcc, html, Input, Output
 ## Default properties for each atom.
 default_properties = {
     "H": {"colour": "white", "radius": 10.2652},
+    "He": {"colour": "blue", "radius": 10.2652},
+    "Li": {"colour": "yellow", "radius": 30.2652},
+    "Be": {"colour": "green", "radius": 30.2652},
+    "B": {"colour": "green", "radius": 30.2652},
     "C": {"colour": "grey", "radius": 30.4652},
     "N": {"colour": "blue", "radius": 30.4652},
     "O": {"colour": "red", "radius": 30.4652}
+    "F": {"colour": "green", "radius": 30.2652},
+    "Ne": {"colour": "yellow", "radius": 30.2652},
+    "Na": {"colour": "orange", "radius": 30.2652},
+    "Mg": {"colour": "orange", "radius": 30.2652},
+    "Al": {"colour": "grey", "radius": 30.2652},    
 }
 
 ## Auxiliary function I used to get the geometries.
