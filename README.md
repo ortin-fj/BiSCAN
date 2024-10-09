@@ -3,7 +3,7 @@ This is Bidimensional Scan Analyzer (BiSCAN), written in Python! It simultaneous
 
 Installation:
 
-1) You can download the setup.py file and the BiSCAN_module directory and then execute 'pip install .' in the directory where you have both items. That should create the module in your Python installation, which allows you to simply use the code as:
+1) You can download the setup.py file and the BiSCAN_module directory and then execute 'pip install .' in the directory where you have both items. That should create the module in your Python installation, which allows you to simply use the code in your Linux terminal as:
 
 biscan output_file.log
 
