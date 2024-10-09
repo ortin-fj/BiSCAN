@@ -18,7 +18,7 @@ default_properties = {
     "B": {"colour": "green", "radius": 30.2652},
     "C": {"colour": "grey", "radius": 30.4652},
     "N": {"colour": "blue", "radius": 30.4652},
-    "O": {"colour": "red", "radius": 30.4652}
+    "O": {"colour": "red", "radius": 30.4652},
     "F": {"colour": "green", "radius": 30.2652},
     "Ne": {"colour": "yellow", "radius": 30.2652},
     "Na": {"colour": "orange", "radius": 30.2652},
