@@ -381,7 +381,10 @@ class BiSCAN:
         ### COLORS ACCORDING TO SYMBOL
         lista_colores = []
         for symbol in data_symbol['symbol']:
-            lista_colores.append(default_properties[symbol]['colour'])
+            if symbol in default_properties:
+                lista_colores.append(default_properties[symbol]['colour'])
+            else:
+                lista_colores.append('orange')
         
         dato = pd.DataFrame({'color' : lista_colores})    
         data_color = pd.concat([data_color,dato], ignore_index=True)
@@ -390,7 +393,10 @@ class BiSCAN:
         ### SIZE
         lista_size = []
         for symbol in data_symbol['symbol']:
-            lista_size.append(default_properties[symbol]['radius'])
+            if symbol in default_properties:
+                lista_size.append(default_properties[symbol]['radius'])
+            else:
+                lista_size.append(30.4652)
         
         data_size = pd.DataFrame({'size' : lista_size})    
         
