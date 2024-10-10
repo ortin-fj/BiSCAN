@@ -7,7 +7,7 @@ Installation:
 
 biscan output_file.log
 
-where 'output_file.log' is your bidimensional output file. The program will provide an http link that you can Ctrl + right-click on or you can paste on your browser, showing the figures of the video. I provide a test file with a bidimensional scan of a water molecule in the 'example' folder.  Any feedback is welcome!
+where 'output_file.log' is your bidimensional output file. The program will provide an http link that you can Ctrl + left-click on or you can paste on your browser, showing the figures of the video. I provide a test file with a bidimensional scan of a water molecule in the 'example' folder.  Any feedback is welcome!
 
 
 
